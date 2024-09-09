@@ -7,7 +7,7 @@ from core.reader_config import reader_cfg_dict
 from services.backoff import backoff
 from sllurp.llrp import LLRPReaderConfig, LLRPReaderClient, LLRP_DEFAULT_PORT
 
-READER_HOST = "192.168.88.249"
+READER_HOST = "192.168.88.252"
 
 
 def callback(_reader, tags):
